@@ -1,11 +1,11 @@
 export default function Places({
-  title,
-  places,
-  fallbackText,
-  onSelectPlace,
-  isLoading,
-  loadingText,
-}) {
+                                 title,
+                                 places,
+                                 fallbackText,
+                                 onSelectPlace,
+                                 isLoading,
+                                 loadingText,
+                               }) {
   console.log(places);
   return (
     <section className="places-category">
